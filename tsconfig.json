@@ -11,7 +11,7 @@
     "module": "esnext",
     "target": "es2018",
     "types": [
-      "@types/node",
+      "@types/node"
     ],
     "baseUrl": ".",
     "paths": {
@@ -21,6 +21,6 @@
     },
     "lib": [
       "esnext"
-    ],
+    ]
   }
 }

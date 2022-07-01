@@ -1,9 +1,10 @@
 {
   "name": "@oceanpresent/helpme",
-  "version": "0.0.0",
-  "description": "",
-  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Collection of JavaScript and TypeScript utils",
   "author": "OceanPresent <oceanpresent@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/OceanPresentChao/helpme",
   "repository": {
     "type": "git",
     "url": "https://github.com/OceanPresentChao/helpme.git"
@@ -12,7 +13,6 @@
     "utils",
     "typescript"
   ],
-  "homepage": "https://github.com/OceanPresentChao/helpme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -37,7 +37,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "esno ./src/index.ts",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },

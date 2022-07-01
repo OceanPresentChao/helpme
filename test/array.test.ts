@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
-import { isDateValid } from '../src/date'
+import { shuffle } from '../src/array'
 describe('should', () => {
   it('exported', () => {
-    expect(isDateValid(1995, 11, 17)).toEqual(true)
+
   })
 })
+

@@ -1,3 +1,5 @@
-export function sum(a: number, b: number): number {
-    return a + b
-}
+export * from './array'
+export * from './date'
+export * from './is'
+export * from './number'
+export * from './object'
